@@ -1,12 +1,7 @@
-# robots.txt - https://noondiscountstoday-arch.github.io/robots.txt
-# الدومين: GitHub Pages
-
-# ----- محركات البحث العادية وكل الزواحف الأخرى -----
 User-agent: *
 Allow: /
-Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: ai-train=no, search=yes, ai-input=no
 
-# ----- زواحف بحث الذكاء الاصطناعي (مسموحة: بتخليك تظهر في إجابات المساعدات) -----
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -16,7 +11,6 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# ----- زواحف تدريب النماذج (ممنوعة) -----
 User-agent: GPTBot
 Disallow: /
 
@@ -26,7 +20,4 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-User-agent: CCBot
-Disallow: /
-
-Sitemap: https://noondiscountstoday-arch.github.io/sitemap.xml
+Sitemap: https://YOUR-DOMAIN/sitemap.xml
